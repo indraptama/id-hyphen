@@ -266,7 +266,7 @@ window['Hypher']['languages'] = {};
 
 
 /**
- * English language pattern
+ * Indonesia language pattern
  */
 (function () {
 
@@ -305,4 +305,4 @@ for (var i = 0; i < module.exports.id.length; i += 1) {
 }());
 
 // Hyphenate paragraph text
-new hyphenate( 'p, ul', 'id' );
+new hyphenate( 'p, ul, ol, dl, article', 'id' );
